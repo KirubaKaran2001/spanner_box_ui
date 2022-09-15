@@ -4,14 +4,15 @@ import 'package:spanner_box_ui/constants/textStyle.dart';
 import 'package:ticket_widget/ticket_widget.dart';
 
 
-class SpannerBox extends StatefulWidget {
-  const SpannerBox({super.key});
+class RaiseTicket
+ extends StatefulWidget {
+  const RaiseTicket({super.key});
 
   @override
-  State<SpannerBox> createState() => _SpannerBoxState();
+  State<RaiseTicket> createState() => _RaiseTicketState();
 }
 
-class _SpannerBoxState extends State<SpannerBox> {
+class _RaiseTicketState extends State<RaiseTicket> {
   bool wheelsValue = false;
   bool nutsAndBoltsValue = false;
   bool meshValue = false;
