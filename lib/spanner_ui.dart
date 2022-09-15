@@ -24,7 +24,7 @@ class _SpannerBoxState extends State<SpannerBox> {
           ),
         ),
         body: ListView.builder(
-          itemCount: 10,
+          itemCount: 12,
           itemBuilder: (BuildContext context, int index) {
             Color getColor() {
               if (index == 0 || index == 4) {
