@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:spanner_box_ui/constants/textStyle.dart';
+import 'package:ticket_widget/ticket_widget.dart';
 
 
 class SpannerBox extends StatefulWidget {
