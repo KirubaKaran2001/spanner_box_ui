@@ -3,9 +3,7 @@ import 'package:intl/intl.dart';
 import 'package:spanner_box_ui/constants/textStyle.dart';
 import 'package:ticket_widget/ticket_widget.dart';
 
-
-class RaiseTicket
- extends StatefulWidget {
+class RaiseTicket extends StatefulWidget {
   const RaiseTicket({super.key});
 
   @override
@@ -72,7 +70,7 @@ class _RaiseTicketState extends State<RaiseTicket> {
                   ),
                 ],
               ),
-Row(
+              Row(
                 children: <Widget>[
                   Checkbox(
                     activeColor: Colors.transparent,
@@ -168,7 +166,7 @@ Row(
                 alignment: Alignment.center,
                 child: TicketWidget(
                   color: const Color(0xffff3838),
-                  width: 200,
+                  width: MediaQuery.of(context).size.width * 0.70,
                   height: 55,
                   isCornerRounded: true,
                   padding: const EdgeInsets.all(20),
@@ -187,4 +185,3 @@ Row(
     );
   }
 }
-
